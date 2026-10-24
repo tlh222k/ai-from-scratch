@@ -4,10 +4,10 @@ Chương này giới thiệu khái niệm học máy (Machine Learning – ML). 
 
 ## Các phần (Sections)
 
-- **1.1 Định nghĩa học máy (Defining Machine Learning)**
-- **1.2 Tại sao nên học học máy? (Why Learn Machine Learning?)**
+- [**1.1 Định nghĩa học máy (Defining Machine Learning)**](./01-defining-machine-learning.ipynb)
+- [**1.2 Tại sao nên học học máy? (Why Learn Machine Learning?)**](./02-why-learn-machine-learning.ipynb)
 - **1.3 Các ví dụ về học máy trong cuộc sống hằng ngày (Examples of ML in Everyday Life)**
 - **1.4 Phân biệt học máy với lập trình truyền thống (Distinguishing ML from Traditional Programming)**
-- **1.5 Các loại hệ thống học máy (Types of Machine Learning Systems)**
-- **1.6 Tổng quan về quy trình làm việc trong học máy (The Machine Learning Workflow Overview)**
+- [**1.5 Các loại hệ thống học máy (Types of Machine Learning Systems)**](./05-types-of-machine-learning-systems.ipynb)
+- [**1.6 Tổng quan về quy trình làm việc trong học máy (The Machine Learning Workflow Overview)**](./06-the-machine-learning-workflow-overview.ipynb)
 - **1.7 Các công cụ bạn có thể sử dụng (Tools You Might Use)**
