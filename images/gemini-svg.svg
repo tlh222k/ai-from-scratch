@@ -1,0 +1,74 @@
+<svg width="526pt" height="124pt" viewBox="0.00 0.00 526.00 124.00" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 120)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-120 522,-120 522,4 -4,4"></polygon>
+<!-- Dataset -->
+<g id="node1" class="node">
+<polygon fill="#dee2e6" stroke="transparent" points="8,-94 8,-112 80,-112 80,-94 8,-94"></polygon>
+<polygon fill="none" stroke="#000000" points="8,-94 8,-112 80,-112 80,-94 8,-94"></polygon>
+<text text-anchor="start" x="10.8215" y="-101" font-family="Times,serif" font-weight="bold" font-size="10.00" fill="#000000">Email (Instance)</text>
+<polygon fill="#a5d8ff" stroke="transparent" points="80,-94 80,-112 204,-112 204,-94 80,-94"></polygon>
+<polygon fill="none" stroke="#000000" points="80,-94 80,-112 204,-112 204,-94 80,-94"></polygon>
+<text text-anchor="start" x="82.72" y="-101" font-family="Times,serif" font-weight="bold" font-size="10.00" fill="#000000">Contains 'Viagra' (Feature 1)</text>
+<polygon fill="#a5d8ff" stroke="transparent" points="204,-94 204,-112 324,-112 324,-94 204,-94"></polygon>
+<polygon fill="none" stroke="#000000" points="204,-94 204,-112 324,-112 324,-94 204,-94"></polygon>
+<text text-anchor="start" x="206.7945" y="-101" font-family="Times,serif" font-weight="bold" font-size="10.00" fill="#000000">All Caps Subject (Feature 2)</text>
+<polygon fill="#a5d8ff" stroke="transparent" points="324,-94 324,-112 436,-112 436,-94 324,-94"></polygon>
+<polygon fill="none" stroke="#000000" points="324,-94 324,-112 436,-112 436,-94 324,-94"></polygon>
+<text text-anchor="start" x="326.827" y="-101" font-family="Times,serif" font-weight="bold" font-size="10.00" fill="#000000">Known Sender (Feature 3)</text>
+<polygon fill="#ffc9c9" stroke="transparent" points="436,-94 436,-112 510,-112 510,-94 436,-94"></polygon>
+<polygon fill="none" stroke="#000000" points="436,-94 436,-112 510,-112 510,-94 436,-94"></polygon>
+<text text-anchor="start" x="438.571" y="-101" font-family="Times,serif" font-weight="bold" font-size="10.00" fill="#000000">Is Spam? (Label)</text>
+<polygon fill="none" stroke="#000000" points="8,-76 8,-94 80,-94 80,-76 8,-76"></polygon>
+<text text-anchor="start" x="28.3075" y="-82" font-family="Times,serif" font-size="10.00" fill="#000000">Email 1</text>
+<polygon fill="none" stroke="#000000" points="80,-76 80,-94 204,-94 204,-76 80,-76"></polygon>
+<text text-anchor="start" x="134.2265" y="-82" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="204,-76 204,-94 324,-94 324,-76 204,-76"></polygon>
+<text text-anchor="start" x="257.8905" y="-82" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="324,-76 324,-94 436,-94 436,-76 324,-76"></polygon>
+<text text-anchor="start" x="373.8905" y="-82" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="436,-76 436,-94 510,-94 510,-76 436,-76"></polygon>
+<text text-anchor="start" x="465.2265" y="-82" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="8,-58 8,-76 80,-76 80,-58 8,-58"></polygon>
+<text text-anchor="start" x="28.3075" y="-64" font-family="Times,serif" font-size="10.00" fill="#000000">Email 2</text>
+<polygon fill="none" stroke="#000000" points="80,-58 80,-76 204,-76 204,-58 80,-58"></polygon>
+<text text-anchor="start" x="135.8905" y="-64" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="204,-58 204,-76 324,-76 324,-58 204,-58"></polygon>
+<text text-anchor="start" x="257.8905" y="-64" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="324,-58 324,-76 436,-76 436,-58 324,-58"></polygon>
+<text text-anchor="start" x="372.2265" y="-64" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="436,-58 436,-76 510,-76 510,-58 436,-58"></polygon>
+<text text-anchor="start" x="466.8905" y="-64" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="8,-40 8,-58 80,-58 80,-40 8,-40"></polygon>
+<text text-anchor="start" x="28.3075" y="-46" font-family="Times,serif" font-size="10.00" fill="#000000">Email 3</text>
+<polygon fill="none" stroke="#000000" points="80,-40 80,-58 204,-58 204,-40 80,-40"></polygon>
+<text text-anchor="start" x="135.8905" y="-46" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="204,-40 204,-58 324,-58 324,-40 204,-40"></polygon>
+<text text-anchor="start" x="256.2265" y="-46" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="324,-40 324,-58 436,-58 436,-40 324,-40"></polygon>
+<text text-anchor="start" x="373.8905" y="-46" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="436,-40 436,-58 510,-58 510,-40 436,-40"></polygon>
+<text text-anchor="start" x="465.2265" y="-46" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="8,-22 8,-40 80,-40 80,-22 8,-22"></polygon>
+<text text-anchor="start" x="28.3075" y="-28" font-family="Times,serif" font-size="10.00" fill="#000000">Email 4</text>
+<polygon fill="none" stroke="#000000" points="80,-22 80,-40 204,-40 204,-22 80,-22"></polygon>
+<text text-anchor="start" x="135.8905" y="-28" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="204,-22 204,-40 324,-40 324,-22 204,-22"></polygon>
+<text text-anchor="start" x="257.8905" y="-28" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="324,-22 324,-40 436,-40 436,-22 324,-22"></polygon>
+<text text-anchor="start" x="372.2265" y="-28" font-family="Times,serif" font-size="10.00" fill="#000000">Yes</text>
+<polygon fill="none" stroke="#000000" points="436,-22 436,-40 510,-40 510,-22 436,-22"></polygon>
+<text text-anchor="start" x="466.8905" y="-28" font-family="Times,serif" font-size="10.00" fill="#000000">No</text>
+<polygon fill="none" stroke="#000000" points="8,-4 8,-22 80,-22 80,-4 8,-4"></polygon>
+<text text-anchor="start" x="40.25" y="-10" font-family="Times,serif" font-size="10.00" fill="#000000">...</text>
+<polygon fill="none" stroke="#000000" points="80,-4 80,-22 204,-22 204,-4 80,-4"></polygon>
+<text text-anchor="start" x="138.25" y="-10" font-family="Times,serif" font-size="10.00" fill="#000000">...</text>
+<polygon fill="none" stroke="#000000" points="204,-4 204,-22 324,-22 324,-4 204,-4"></polygon>
+<text text-anchor="start" x="260.25" y="-10" font-family="Times,serif" font-size="10.00" fill="#000000">...</text>
+<polygon fill="none" stroke="#000000" points="324,-4 324,-22 436,-22 436,-4 324,-4"></polygon>
+<text text-anchor="start" x="376.25" y="-10" font-family="Times,serif" font-size="10.00" fill="#000000">...</text>
+<polygon fill="none" stroke="#000000" points="436,-4 436,-22 510,-22 510,-4 436,-4"></polygon>
+<text text-anchor="start" x="469.25" y="-10" font-family="Times,serif" font-size="10.00" fill="#000000">...</text>
+</g>
+</g>
+</svg>
