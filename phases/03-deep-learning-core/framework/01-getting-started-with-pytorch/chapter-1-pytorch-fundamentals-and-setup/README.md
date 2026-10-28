@@ -15,10 +15,10 @@ Bạn sẽ học cách:
 
 ## Các mục (Sections)
 
-- **1.1 PyTorch là gì? (What is PyTorch?)**
-- **1.2 Cài đặt và cấu hình môi trường (Installation and Environment Configuration)**
-- **1.3 Giới thiệu về Tensor (Introduction to Tensors)**
-- **1.4 Tạo Tensor (Creating Tensors)**
-- **1.5 Các phép toán cơ bản trên Tensor (Basic Tensor Operations)**
-- **1.6 Mối quan hệ với NumPy (Relationship with NumPy)**
-- **1.7 Thực hành: Thiết lập môi trường và các thao tác cơ bản với Tensor (Hands-on Practical: Setup and Tensor Basics)**
+- [**1.1 PyTorch là gì? (What is PyTorch?)**](./01-what-is-PyTorch.ipynb)
+- [**1.2 Cài đặt và cấu hình môi trường (Installation and Environment Configuration)**](./02-installation-and-environment-configuration.ipynb)
+- [**1.3 Giới thiệu về Tensor (Introduction to Tensors)**](./03-introduction%20to-tensors.ipynb)
+- [**1.4 Tạo Tensor (Creating Tensors)**](./04-creating-tensors.ipynb)
+- [**1.5 Các phép toán cơ bản trên Tensor (Basic Tensor Operations)**](./05-basic-tensor-operations.ipynb)
+- [**1.6 Mối quan hệ với NumPy (Relationship with NumPy)**](./06-relationship-with-NumPy.ipynb)
+- [**1.7 Thực hành: Thiết lập môi trường và các thao tác cơ bản với Tensor (Hands-on Practical: Setup and Tensor Basics)**](./hands-on-practical/00-verifying-your-PyTorch-installation.ipynb)
