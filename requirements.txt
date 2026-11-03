@@ -1,0 +1,13 @@
+# Numerical computing
+numpy>=1.26.0
+
+# Interactive visualization
+plotly>=5.24.0
+
+# Jupyter environment
+jupyterlab>=4.2.0
+notebook>=7.2.0
+ipykernel>=6.29.0
+
+# Notebook format support
+nbformat>=5.10.0
