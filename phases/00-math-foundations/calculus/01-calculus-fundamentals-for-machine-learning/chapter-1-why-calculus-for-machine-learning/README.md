@@ -14,9 +14,14 @@ Khi kết thúc chương này, bạn sẽ hiểu được sự cần thiết c�
 
 ## **Các phần (Sections)**
 
-- **1.1 Vai trò của Toán học trong Học máy (The Role of Math in Machine Learning)**
-- **1.2 Giới thiệu về Hàm số: Đầu vào và Đầu ra (Introducing Functions: Inputs and Outputs)**
-- **1.3 Trực quan hóa Hàm số: Đồ thị (Visualizing Functions: Graphs)**
-- **1.4 Giới hạn là gì? (What is a Limit?)**
-- **1.5 Trực giác về Giới hạn (Intuition Behind Limits)**
-- **1.6 Kết nối Hàm số và Giới hạn với Học máy (Connecting Functions and Limits to ML)**
+- [**1.1 Vai trò của Toán học trong Học máy (The Role of Math in Machine Learning)**](./01-the-role-of-math-in-machine-learning.ipynb)
+
+- [**1.2 Giới thiệu về Hàm số: Đầu vào và Đầu ra (Introducing Functions: Inputs and Outputs)**](./02-introducing-functions-inputs-and-outputs.ipynb)
+
+- [**1.3 Trực quan hóa Hàm số: Đồ thị (Visualizing Functions: Graphs)**](./03-visualizing-functions-graphs.ipynb)
+
+- [**1.4 Giới hạn là gì? (What is a Limit?)**](./04-what-is-a-limit.ipynb)
+
+- [**1.5 Trực giác về Giới hạn (Intuition Behind Limits)**](./05-intuition-behind-limits.ipynb)
+
+- [**1.6 Kết nối Hàm số và Giới hạn với Học máy (Connecting Functions and Limits to ML)**](./06-connecting-functions-and-limits-to-ml.ipynb)
