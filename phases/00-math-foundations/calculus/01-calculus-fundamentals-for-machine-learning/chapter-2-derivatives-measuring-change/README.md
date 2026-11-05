@@ -6,7 +6,7 @@ Bạn sẽ tìm hiểu về:
 
 - Sự khác biệt giữa tốc độ thay đổi trung bình và tốc độ thay đổi tức thời.
 - Định nghĩa đạo hàm là hệ số góc của đường tiếp tuyến với đồ thị hàm số.
-- Các ký hiệu đạo hàm phổ biến, chẳng hạn như **(Ký hiệu Lagrange: $f'(x)$)** và **(Ký hiệu Leibniz: $\dfrac{dy}{dx}$)**.
+- Các ký hiệu đạo hàm phổ biến, chẳng hạn như **(Ký hiệu Lagrange: $f'(x)$** và **(Ký hiệu Leibniz: $\dfrac{dy}{dx}$)**.
 - Các quy tắc cơ bản để tính đạo hàm, bao gồm quy tắc lũy thừa, quy tắc đạo hàm của hằng số và quy tắc tổng.
 - Khái niệm về đạo hàm cấp cao.
 
