@@ -14,10 +14,16 @@ Chúng ta sẽ bắt đầu bằng việc tìm hiểu trực giác về tốc đ
 
 ## **Các phần (Sections)**
 
-- **2.1 Tốc độ thay đổi: Trung bình và tức thời (Rate of Change: Average vs Instantaneous)**
-- **2.2 Đạo hàm: Hệ số góc của đường tiếp tuyến (The Derivative: Slope of a Tangent Line)**
-- **2.3 Ký hiệu đạo hàm (Leibniz và Lagrange) (Derivative Notation (Leibniz and Lagrange))**
-- **2.4 Tính đạo hàm: Quy tắc lũy thừa (Calculating Derivatives: The Power Rule)**
-- **2.5 Tính đạo hàm: Hằng số và tổng (Calculating Derivatives: Constants and Sums)**
-- **2.6 Giới thiệu về đạo hàm cấp cao (Introduction to Higher-Order Derivatives)**
-- **2.7 Thực hành: Tính đạo hàm của các hàm số đơn giản (Practice: Calculating Simple Derivatives)**
+- [**2.1 Tốc độ thay đổi: Trung bình và tức thời (Rate of Change: Average vs Instantaneous)**](./01-rate-of-change-average-and-instantaneous.ipynb)
+
+- [**2.2 Đạo hàm: Hệ số góc của đường tiếp tuyến (The Derivative: Slope of a Tangent Line)**](./02-the-derivative-slope-of%20a-tangent-line.ipynb)
+
+- [**2.3 Ký hiệu đạo hàm (Leibniz và Lagrange) (Derivative Notation (Leibniz and Lagrange))**](./03-derivative-notation-Leibniz-and-Lagrange.ipynb)
+
+- [**2.4 Tính đạo hàm: Quy tắc lũy thừa (Calculating Derivatives: The Power Rule)**](./04-calculating-derivatives-the-power-rule.ipynb)
+
+- [**2.5 Tính đạo hàm: Hằng số và tổng (Calculating Derivatives: Constants and Sums)**](./05-calculating-derivatives-constants-and-sums.ipynb)
+
+- [**2.6 Giới thiệu về đạo hàm cấp cao (Introduction to Higher-Order Derivatives)**](./06-introduction-to-higher-order-derivatives.ipynb)
+
+- [**2.7 Thực hành: Tính đạo hàm của các hàm số đơn giản (Practice: Calculating Simple Derivatives)**](./)
