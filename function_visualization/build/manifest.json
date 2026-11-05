@@ -1,0 +1,50 @@
+{
+  "graphs": {
+    "linear_function": {
+      "filename": "linear_function.html",
+      "source_sha256": "8584ce3d0367d01004d8e66304f140aa3097a9a00c45ac704d9436b40da31271",
+      "html_sha256": "48e8d627b7efd12b7473ea1e569df639c22ec3fb21c34803c394cb6653df4efb",
+      "status": "SKIP"
+    },
+    "quadratic_function": {
+      "filename": "quadratic_function.html",
+      "source_sha256": "dcbbd712fda48eb0b46194c0fe57aeb2f2345ff676f4cf3e13537491dee6b179",
+      "html_sha256": "5e71310e9b540738f768a61614067582d5f86e3ea46c3f983ed53311569611fc",
+      "status": "SKIP"
+    },
+    "limit_function": {
+      "filename": "limit_function.html",
+      "source_sha256": "c9dd3f81118a5727bb92c6d6ae5fe58dfb81dfe835715398a64cfa93e3680fe5",
+      "html_sha256": "caba70fdc124a6628c23c45ed0730221ff846a93bb31e38473b6e1e3b70ee3fa",
+      "status": "SKIP"
+    },
+    "limit_approach_function": {
+      "filename": "limit_approach_function.html",
+      "source_sha256": "9e9ee2833292ccda37bea6cadd10c4651878ce9f5fd02d127c3ca664c5016567",
+      "html_sha256": "7d5cb43daec2d0352c6b4cb7637a7e7be6c6913877af70b990aa676132837632",
+      "status": "SKIP"
+    },
+    "secant_line": {
+      "filename": "secant_line_function.html",
+      "source_sha256": "f6c2113406846bbade7f6c067a0a3863c966c42c59b30aef1a31db9d09e3e14a",
+      "html_sha256": "ed862a83831fb29d36b8bfc7e4e174fb2cbdb12e3464a331e23e8e29bb6f1764",
+      "status": "SKIP"
+    },
+    "secant_to_tangent": {
+      "filename": "secant_to_tangent_function.html",
+      "source_sha256": "ccf3dd208d0196132b7143d7e59cd304ef37242cf1bc6572117cb1db91ba5bc9",
+      "html_sha256": "768096fe4d66592b815bf5367d54c165b43be596b735808c279d9244662ae51b",
+      "status": "SKIP"
+    },
+    "minimum_point": {
+      "filename": "minimum_point_function.html",
+      "source_sha256": "58cef2f7597439bb745720bc19eebdd9926ad3630ae91fa58397e253dc803008",
+      "html_sha256": "02c071c77e57ecd8d5a72eec7338820209a30b334f23b75a521892edee82d374",
+      "status": "PRESERVED"
+    }
+  },
+  "index": {
+    "filename": "index.html",
+    "sha256": "2206a292e9bcaa7310c3fbbba05eab59f4718f2eddc48a3cb2e3a8947e5d47da"
+  }
+}
