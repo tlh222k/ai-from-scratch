@@ -65,6 +65,7 @@ def build_caption_html(
     return f"""
     <div class="visualization-caption">
         {title_html}
+
         <div class="caption-content">
             {caption}
         </div>
@@ -149,30 +150,40 @@ def export_figure(
         "linear_function": (
             "Hệ số góc m", -5, 5, 2, "linear"
         ),
+
         "quadratic_function": (
             "Hệ số a", -3, 3, 1, "quadratic"
         ),
+
         "limit_function": (
             "Vị trí điểm khuyết a", -2, 3, 1, "limit"
         ),
+
         "limit_approach_function": (
             "Điểm tiến đến a", 0, 5, 3, "approach"
         ),
+
         "secant_line": (
             "Điểm thứ hai x₂", 1.1, 3.5, 3, "secant"
         ),
+
         "secant_to_tangent": (
             "Khoảng cách h", 0.05, 2, 1, "tangent"
         ),
 
-        # Graph cũ: giữ nguyên
+        # Graph cũ: J(w) = (w - 2)²
         "cost_function": (
             "Tham số mô hình w", -2, 6, 5, "cost"
         ),
 
-        # Graph mới: J(w) = w²
+        # Graph: J(w) = w²
         "quadratic_cost_function": (
             "Tham số mô hình w", -4, 4, 3, "quadratic_cost"
+        ),
+
+        # Graph: Gradient Descent trên f(x) = x²
+        "gradient_descent": (
+            "Vị trí hiện tại x", -4, 4, 2, "gradient_descent"
         ),
     }
 
@@ -250,18 +261,108 @@ def export_figure(
                 let cap = "";
 
                 // -------------------------------------------------
-                // GRAPH MỚI: QUADRATIC COST FUNCTION
-                // J(w) = w²
+                // GRAPH: GRADIENT DESCENT
+                // f(x) = x²
                 //
-                // Chỉ cập nhật trace số 1:
-                // điểm tham số hiện tại.
-                //
-                // Trace 0: đường cong.
-                // Trace 2: điểm tối ưu.
-                // Cả hai được giữ nguyên.
+                // Trace 0: Đường cong hàm số.
+                // Trace 1: Điểm hiện tại.
+                // Trace 2: Tiếp tuyến.
+                // Trace 3: Điểm cực tiểu.
                 // -------------------------------------------------
 
-                if (kind === "quadratic_cost") {{
+                if (kind === "gradient_descent") {{
+                    const fx = v ** 2;
+                    const gradient = 2 * v;
+                    const learningRate = 0.2;
+
+                    // Quy tắc cập nhật Gradient Descent
+                    const nextX = v - learningRate * gradient;
+
+                    // Cập nhật điểm hiện tại
+                    Plotly.restyle(
+                        g,
+                        {{
+                            x: [[v]],
+                            y: [[fx]]
+                        }},
+                        [1]
+                    );
+
+                    // Tính toán tiếp tuyến:
+                    // y = f(v) + f'(v)(x - v)
+
+                    const tangentX = [];
+                    const tangentY = [];
+
+                    for (let i = 0; i < 100; i++) {{
+                        const t = v - 1.2 + (2.4 * i / 99);
+
+                        tangentX.push(t);
+
+                        tangentY.push(
+                            fx + gradient * (t - v)
+                        );
+                    }}
+
+                    // Cập nhật đường tiếp tuyến
+                    Plotly.restyle(
+                        g,
+                        {{
+                            x: [tangentX],
+                            y: [tangentY]
+                        }},
+                        [2]
+                    );
+
+                    // Cập nhật mũi tên Gradient Descent
+                    // Dấu ngoặc nhọn phải được escape trong f-string.
+                    Plotly.relayout(g, {{
+                        annotations: [{{
+                            x: nextX,
+                            y: 0.55,
+                            ax: v,
+                            ay: 0.55,
+                            xref: "x",
+                            yref: "y",
+                            axref: "x",
+                            ayref: "y",
+                            showarrow: Math.abs(gradient) > 0.01,
+                            arrowhead: 3,
+                            arrowsize: 1.4,
+                            arrowwidth: 3,
+                            arrowcolor: "#2563eb",
+                            text: ""
+                        }}]
+                    }});
+
+                    if (Math.abs(v) < 0.01) {{
+                        cap =
+                            "Bạn đang ở gần điểm cực tiểu x = 0. " +
+                            "Đạo hàm gần bằng 0 nên bước cập nhật rất nhỏ.";
+
+                    }} else if (gradient > 0) {{
+                        cap =
+                            "f'(x) = " + gradient.toFixed(2) +
+                            " > 0. Hàm số đang tăng. " +
+                            "Gradient Descent di chuyển x sang trái, " +
+                            "từ " + v.toFixed(2) +
+                            " đến " + nextX.toFixed(2) + ".";
+
+                    }} else {{
+                        cap =
+                            "f'(x) = " + gradient.toFixed(2) +
+                            " < 0. Hàm số đang giảm. " +
+                            "Gradient Descent di chuyển x sang phải, " +
+                            "từ " + v.toFixed(2) +
+                            " đến " + nextX.toFixed(2) + ".";
+                    }}
+
+                // -------------------------------------------------
+                // GRAPH: QUADRATIC COST FUNCTION
+                // J(w) = w²
+                // -------------------------------------------------
+
+                }} else if (kind === "quadratic_cost") {{
                     const cost = v ** 2;
 
                     Plotly.restyle(
@@ -296,7 +397,6 @@ def export_figure(
                 // -------------------------------------------------
                 // COST FUNCTION CŨ
                 // J(w) = (w - 2)²
-                // Giữ nguyên logic ban đầu.
                 // -------------------------------------------------
 
                 }} else if (kind === "cost") {{
@@ -403,14 +503,15 @@ def export_figure(
                     }}
                 }}
 
-                // Cập nhật caption động
+                // Cập nhật caption động bên dưới slider
                 document.getElementById("param-caption").textContent = cap;
 
                 const captionContent = document.querySelector(
                     ".caption-content"
                 );
 
-                if (captionContent) {{
+                // Gradient Descent giữ nguyên caption bài giảng
+                if (captionContent && kind !== "gradient_descent") {{
                     captionContent.textContent = cap;
                 }}
             }}
@@ -427,6 +528,7 @@ def export_figure(
 
     html = """<!DOCTYPE html>
     <html lang="vi">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -434,12 +536,12 @@ def export_figure(
         <title>TITLE_PLACEHOLDER</title>
 
         <script>
-            window.MathJax = {{
-                tex: {{
+            window.MathJax = {
+                tex: {
                     inlineMath: [['\\\\(', '\\\\)']],
                     displayMath: [['\\\\[', '\\\\]']]
-                }}
-            }};
+                }
+            };
         </script>
 
         <script
@@ -449,25 +551,25 @@ def export_figure(
         </script>
 
         <style>
-            * {{
+            * {
                 box-sizing: border-box;
-            }}
+            }
 
-            body {{
+            body {
                 margin: 0;
                 padding: 24px;
                 font-family: Arial, sans-serif;
                 background: #fff;
                 color: #1e293b;
-            }}
+            }
 
-            .container {{
+            .container {
                 width: 100%;
                 max-width: 1100px;
                 margin: 0 auto;
-            }}
+            }
 
-            .back-link {{
+            .back-link {
                 display: inline-flex;
                 align-items: center;
                 gap: 8px;
@@ -481,29 +583,29 @@ def export_figure(
                 font-size: 14px;
                 font-weight: 700;
                 transition: background .15s, border-color .15s;
-            }}
+            }
 
-            .back-link:hover {{
+            .back-link:hover {
                 background: #dbeafe;
                 border-color: #93c5fd;
-            }}
+            }
 
-            .plot-container {{
+            .plot-container {
                 width: 100%;
-            }}
+            }
 
-            .note {{
+            .note {
                 margin-top: 12px;
                 color: #94a3b8;
                 font-size: 12px;
                 text-align: center;
-            }}
+            }
 
-            @media(max-width:600px) {{
-                body {{
+            @media(max-width:600px) {
+                body {
                     padding: 10px;
-                }}
-            }}
+                }
+            }
         </style>
     </head>
 
@@ -531,6 +633,7 @@ def export_figure(
 
         </main>
     </body>
+
     </html>
     """
 

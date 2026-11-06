@@ -21,6 +21,7 @@ _MODULES = [
     "minimum_point",
     "cost_function",
     "quadratic_cost_function",
+    "gradient_descent",
 ]
 
 

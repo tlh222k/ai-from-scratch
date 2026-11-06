@@ -53,6 +53,11 @@ GRAPH_CARDS = [
         "Hàm chi phí bậc hai",
         "Khám phá J(w) = w², điểm tối ưu w* = 0 và cách giá trị hàm chi phí thay đổi khi điều chỉnh tham số.",
     ),
+    (
+        "gradient_descent.html",
+        "Gradient Descent và đạo hàm",
+        "Quan sát đạo hàm, tiếp tuyến và hướng cập nhật tham số để tìm điểm cực tiểu của hàm số f(x) = x².",
+    ),
 ]
 
 
