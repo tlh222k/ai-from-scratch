@@ -165,9 +165,14 @@ def export_figure(
             "Khoảng cách h", 0.05, 2, 1, "tangent"
         ),
 
-        # Graph mới
+        # Graph cũ: giữ nguyên
         "cost_function": (
             "Tham số mô hình w", -2, 6, 5, "cost"
+        ),
+
+        # Graph mới: J(w) = w²
+        "quadratic_cost_function": (
+            "Tham số mô hình w", -4, 4, 3, "quadratic_cost"
         ),
     }
 
@@ -245,13 +250,56 @@ def export_figure(
                 let cap = "";
 
                 // -------------------------------------------------
-                // COST FUNCTION
-                // Chỉ cập nhật trace số 1: điểm tham số hiện tại.
-                // Trace 0 (đường cong) và trace 2 (điểm tối ưu)
-                // được giữ nguyên.
+                // GRAPH MỚI: QUADRATIC COST FUNCTION
+                // J(w) = w²
+                //
+                // Chỉ cập nhật trace số 1:
+                // điểm tham số hiện tại.
+                //
+                // Trace 0: đường cong.
+                // Trace 2: điểm tối ưu.
+                // Cả hai được giữ nguyên.
                 // -------------------------------------------------
 
-                if (kind === "cost") {{
+                if (kind === "quadratic_cost") {{
+                    const cost = v ** 2;
+
+                    Plotly.restyle(
+                        g,
+                        {{
+                            x: [[v]],
+                            y: [[cost]]
+                        }},
+                        [1]
+                    );
+
+                    if (Math.abs(v) < 0.001) {{
+                        cap =
+                            "Tham số đã đạt giá trị tối ưu w* = 0. " +
+                            "Hàm chi phí đạt giá trị nhỏ nhất J(w) = 0.";
+
+                    }} else if (v < 0) {{
+                        cap =
+                            "Tham số hiện tại w = " + v.toFixed(2) +
+                            ". Giá trị hàm chi phí J(w) = " +
+                            cost.toFixed(2) +
+                            ". Hãy tăng w về gần 0 để giảm chi phí.";
+
+                    }} else {{
+                        cap =
+                            "Tham số hiện tại w = " + v.toFixed(2) +
+                            ". Giá trị hàm chi phí J(w) = " +
+                            cost.toFixed(2) +
+                            ". Hãy giảm w về gần 0 để giảm chi phí.";
+                    }}
+
+                // -------------------------------------------------
+                // COST FUNCTION CŨ
+                // J(w) = (w - 2)²
+                // Giữ nguyên logic ban đầu.
+                // -------------------------------------------------
+
+                }} else if (kind === "cost") {{
                     const cost = (v - 2) ** 2;
 
                     Plotly.restyle(
@@ -267,12 +315,14 @@ def export_figure(
                         cap =
                             "Tham số đã đạt giá trị tối ưu w* = 2. " +
                             "Hàm chi phí đạt giá trị nhỏ nhất J(w) = 0.";
+
                     }} else if (v < 2) {{
                         cap =
                             "Tham số hiện tại w = " + v.toFixed(2) +
                             ". Giá trị hàm chi phí J(w) = " +
                             cost.toFixed(2) +
                             ". Hãy tăng w về gần 2 để giảm chi phí.";
+
                     }} else {{
                         cap =
                             "Tham số hiện tại w = " + v.toFixed(2) +
@@ -283,7 +333,10 @@ def export_figure(
 
                 }} else {{
 
-                    // Giữ nguyên logic của 6 graph cũ.
+                    // -------------------------------------------------
+                    // GIỮ NGUYÊN LOGIC CỦA 6 GRAPH CŨ
+                    // -------------------------------------------------
+
                     for (let i = 0; i < 300; i++) {{
                         let t = -5 + 10 * i / 299;
 
@@ -291,16 +344,20 @@ def export_figure(
 
                         if (kind === "linear") {{
                             y.push(v * t + 1);
+
                         }} else if (kind === "quadratic") {{
                             y.push(v * t * t);
+
                         }} else if (kind === "limit") {{
                             y.push(
                                 Math.abs(t - v) < 0.025
                                     ? null
                                     : t + v
                             );
+
                         }} else if (kind === "approach") {{
                             y.push(2 * t + (v - 3) * 2 + 1);
+
                         }} else {{
                             y.push(t * t);
                         }}
@@ -377,12 +434,12 @@ def export_figure(
         <title>TITLE_PLACEHOLDER</title>
 
         <script>
-            window.MathJax = {
-                tex: {
+            window.MathJax = {{
+                tex: {{
                     inlineMath: [['\\\\(', '\\\\)']],
                     displayMath: [['\\\\[', '\\\\]']]
-                }
-            };
+                }}
+            }};
         </script>
 
         <script
@@ -392,25 +449,25 @@ def export_figure(
         </script>
 
         <style>
-            * {
+            * {{
                 box-sizing: border-box;
-            }
+            }}
 
-            body {
+            body {{
                 margin: 0;
                 padding: 24px;
                 font-family: Arial, sans-serif;
                 background: #fff;
                 color: #1e293b;
-            }
+            }}
 
-            .container {
+            .container {{
                 width: 100%;
                 max-width: 1100px;
                 margin: 0 auto;
-            }
+            }}
 
-            .back-link {
+            .back-link {{
                 display: inline-flex;
                 align-items: center;
                 gap: 8px;
@@ -424,29 +481,29 @@ def export_figure(
                 font-size: 14px;
                 font-weight: 700;
                 transition: background .15s, border-color .15s;
-            }
+            }}
 
-            .back-link:hover {
+            .back-link:hover {{
                 background: #dbeafe;
                 border-color: #93c5fd;
-            }
+            }}
 
-            .plot-container {
+            .plot-container {{
                 width: 100%;
-            }
+            }}
 
-            .note {
+            .note {{
                 margin-top: 12px;
                 color: #94a3b8;
                 font-size: 12px;
                 text-align: center;
-            }
+            }}
 
-            @media(max-width:600px) {
-                body {
+            @media(max-width:600px) {{
+                body {{
                     padding: 10px;
-                }
-            }
+                }}
+            }}
         </style>
     </head>
 
@@ -454,7 +511,7 @@ def export_figure(
         <main class="container">
 
             <a class="back-link" href="./index.html">
-                &larr; Trang chủ
+                ← Trang chủ
             </a>
 
             <section class="plot-container">

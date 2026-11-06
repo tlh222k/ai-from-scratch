@@ -48,6 +48,11 @@ GRAPH_CARDS = [
         "Hàm chi phí và tối ưu hóa tham số",
         "Khám phá mối quan hệ giữa tham số mô hình và giá trị hàm chi phí. Tìm hiểu cách xác định tham số tối ưu.",
     ),
+    (
+        "quadratic_cost_function.html",
+        "Hàm chi phí bậc hai",
+        "Khám phá J(w) = w², điểm tối ưu w* = 0 và cách giá trị hàm chi phí thay đổi khi điều chỉnh tham số.",
+    ),
 ]
 
 

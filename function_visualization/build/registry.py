@@ -20,6 +20,7 @@ _MODULES = [
     "secant_to_tangent",
     "minimum_point",
     "cost_function",
+    "quadratic_cost_function",
 ]
 
 
