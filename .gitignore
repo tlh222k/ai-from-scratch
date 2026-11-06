@@ -1,0 +1,106 @@
+
+# ==================================================
+# Python
+# ==================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==================================================
+# Virtual Environments
+# ==================================================
+
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Conda
+.conda/
+
+# ==================================================
+# Environment Variables & Secrets
+# ==================================================
+
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+secrets/
+credentials/
+*.pem
+*.key
+
+# ==================================================
+# Jupyter Notebook
+# ==================================================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ==================================================
+# IDE & Editor
+# ==================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================================================
+# Operating System
+# ==================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==================================================
+# Logs & Temporary Files
+# ==================================================
+
+*.log
+logs/
+*.tmp
+*.temp
+
+# Temporary build directory
+.build_tmp/
+
+# ==================================================
+# Cache
+# ==================================================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==================================================
+# Python profiling
+# ==================================================
+
+*.prof
+.prof
+
+# ==================================================
+# Local configuration
+# ==================================================
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
