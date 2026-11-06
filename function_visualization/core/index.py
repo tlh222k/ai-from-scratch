@@ -58,6 +58,11 @@ GRAPH_CARDS = [
         "Gradient Descent và đạo hàm",
         "Quan sát đạo hàm, tiếp tuyến và hướng cập nhật tham số để tìm điểm cực tiểu của hàm số f(x) = x².",
     ),
+    (
+        "gradient_descent_shifted.html",
+        "Gradient Descent trên hàm bậc hai",
+        "Quan sát quỹ đạo tối ưu hóa của f(x) = (x − 3)² + 2 từ x = 0 đến điểm cực tiểu x = 3.",
+    ),
 ]
 
 

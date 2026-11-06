@@ -1,0 +1,23 @@
+.parameter-panel {
+    padding: 18px;
+    margin: 12px 0;
+    background: #f8fbff;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+}
+
+.parameter-panel h3 {
+    margin: 0 0 10px;
+    color: #1e40af;
+}
+
+.parameter-panel input {
+    width: 100%;
+    accent-color: #2563eb;
+    cursor: pointer;
+}
+
+.parameter-panel p {
+    line-height: 1.6;
+    color: #475569;
+}

@@ -22,6 +22,7 @@ _MODULES = [
     "cost_function",
     "quadratic_cost_function",
     "gradient_descent",
+    "gradient_descent_shifted",
 ]
 
 

@@ -4,7 +4,16 @@ Package modular cho 7 visualization của AI From Scratch.
 
 ## Cấu trúc
 - `graphs/`: một module Python cho mỗi graph.
-- `core/`: cấu hình Plotly, caption, export HTML và sinh trang danh mục.
+- `core/`: các module dùng chung (mỗi module một trách nhiệm):
+  - `figure.py`: facade công khai (`configure_figure`, `build_caption_html`, `export_figure`).
+  - `styling.py`: layout Plotly dùng chung. `captions.py`: HTML caption.
+  - `exporter.py`: ghép Plotly + caption + slider vào `templates/page.html`.
+  - `slider/config.py`: cấu hình slider từng graph; `slider/runtime.py`: ghép HTML/CSS/JS của slider.
+  - `templates/`: `page.html`, `styles.css`, `slider_panel.html`, `slider.css`, `slider.js` (lõi) và
+    `handlers/<kind>.js` (hành vi JS riêng cho từng loại graph).
+  - `index.py`: sinh trang danh mục.
+- Thêm graph mới: tạo `graphs/<ten>.py`, thêm tên vào `build/registry.py`; nếu có slider thì gọi
+  `register_slider_config(...)` trong module graph và thêm `core/templates/handlers/<kind>.js`.
 - `build/registry.py`: danh sách graph.
 - `build/builder.py`: cache, build và cập nhật manifest.
 - `../visualizations/`: HTML và `index.html` ở cấp project.
