@@ -6,10 +6,10 @@ Trong chương này, bạn sẽ tìm hiểu cách sử dụng đạo hàm để 
 
 ## **Các phần (Sections)**
 
-- **3.1 Tìm các điểm cực đại và cực tiểu (Finding Maximum and Minimum Points)**
-- **3.2 Tối ưu hóa: Tại sao cần cực tiểu hóa hoặc cực đại hóa? (Optimization: Why Minimize or Maximize?)**
-- **3.3 Hàm chi phí trong Học máy (Cost Functions in Machine Learning)**
-- **3.4 Mục tiêu: Cực tiểu hóa hàm chi phí (Goal: Minimizing the Cost Function)**
-- **3.5 Giới thiệu về Gradient Descent (Introduction to Gradient Descent)**
-- **3.6 Cách đạo hàm định hướng Gradient Descent (How Derivatives Guide Gradient Descent)**
-- **3.7 Trực quan hóa Gradient Descent (Visualizing Gradient Descent)**
+- [**3.1 Tìm các điểm cực đại và cực tiểu (Finding Maximum and Minimum Points)**](./01_finding_maximum_and_minimum_points.ipynb)
+- [**3.2 Tối ưu hóa: Tại sao cần cực tiểu hóa hoặc cực đại hóa? (Optimization: Why Minimize or Maximize?)**](./02-optimization-why-minimize-or-maximize.ipynb)
+- [**3.3 Hàm chi phí trong Học máy (Cost Functions in Machine Learning)**](./03-cost-functions-in-machine-learning.ipynb)
+- [**3.4 Mục tiêu: Cực tiểu hóa hàm chi phí (Goal: Minimizing the Cost Function)**](./04-goal-minimizing-the-cost-function.ipynb)
+- [**3.5 Giới thiệu về Gradient Descent (Introduction to Gradient Descent)**](./05-introduction-to-gradient-descent.ipynb)
+- [**3.6 Cách đạo hàm định hướng Gradient Descent (How Derivatives Guide Gradient Descent)**](./06-how-derivatives-guide-gradient-descent.ipynb)
+- [**3.7 Trực quan hóa Gradient Descent (Visualizing Gradient Descent)**](./07-visualizing-gradient-descent.ipynb)
