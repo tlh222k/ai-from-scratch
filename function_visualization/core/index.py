@@ -63,6 +63,11 @@ GRAPH_CARDS = [
         "Gradient Descent trên hàm bậc hai",
         "Quan sát quỹ đạo tối ưu hóa của f(x) = (x − 3)² + 2 từ x = 0 đến điểm cực tiểu x = 3.",
     ),
+    (
+      "gradient_descent_direction.html",
+      "Gradient Descent – Hướng di chuyển",
+      "Quan sát cách đạo hàm dương tại x = 2 xác định hướng di chuyển sang trái về điểm cực tiểu x = 0.",
+    ),  
 ]
 
 
