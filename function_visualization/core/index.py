@@ -68,6 +68,11 @@ GRAPH_CARDS = [
       "Gradient Descent – Hướng di chuyển",
       "Quan sát cách đạo hàm dương tại x = 2 xác định hướng di chuyển sang trái về điểm cực tiểu x = 0.",
     ),  
+    (
+        "paraboloid_surface.html",
+        "Mặt Paraboloid 3D",
+        "Trực quan hóa hàm hai biến f(x, y) = x² + y² và điểm cực tiểu tại gốc tọa độ (0, 0).",
+    ),
 ]
 
 

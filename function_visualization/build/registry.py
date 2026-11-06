@@ -24,6 +24,7 @@ _MODULES = [
     "gradient_descent",
     "gradient_descent_shifted",
     "gradient_descent_direction",
+    "paraboloid_surface",
 ]
 
 
