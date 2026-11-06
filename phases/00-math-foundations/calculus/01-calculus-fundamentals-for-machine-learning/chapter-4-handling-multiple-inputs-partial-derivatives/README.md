@@ -5,7 +5,7 @@ Hầu hết các mô hình **Học máy (Machine Learning)** đều hoạt độ
 Chương này giới thiệu kỹ thuật giúp thực hiện điều đó: **đạo hàm riêng (Partial Derivatives)**. Bạn sẽ tìm hiểu:
 
 - Cách hình dung và làm việc với các hàm số nhiều biến.
-- Định nghĩa và cách tính đạo hàm riêng, sử dụng các ký hiệu như \(\dfrac{\partial f}{\partial x}\).
+- Định nghĩa và cách tính đạo hàm riêng, sử dụng các ký hiệu như $\dfrac{\partial f}{\partial x}$.
 - Cách kết hợp các đạo hàm riêng thành **vectơ gradient (Gradient Vector)** (`∇f`).
 - Ý nghĩa hình học của gradient và vai trò của nó trong việc xác định hướng thay đổi nhanh nhất của một hàm số.
 
