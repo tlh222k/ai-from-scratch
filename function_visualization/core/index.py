@@ -81,6 +81,11 @@ GRAPH_CARDS = [
         "Simple Linear Regression",
         "Trực quan hóa mô hình f(x; w, b) = wx + b, vai trò của weight, bias và cách đường thẳng khớp với dữ liệu.",
     ),
+    (
+        "quadratic_cost_optimization.html",
+        "Optimization – Finding the Minimum",
+        "Trực quan hóa Cost Function J(w) = w² và quá trình Gradient Descent tìm điểm cực tiểu tại w = 0.",
+    ),
 ]
 
 

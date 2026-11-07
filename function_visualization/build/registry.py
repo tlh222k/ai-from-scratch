@@ -27,6 +27,7 @@ _MODULES = [
     "paraboloid_surface",
     "gradient_vector_contour",
     "linear_regression",
+    "quadratic_cost_optimization",
 ]
 
 
