@@ -13,10 +13,10 @@ Những khái niệm này mở rộng hiểu biết của chúng ta về đạo 
 
 ## **Các phần (Sections)**
 
-- **4.1 Hàm số nhiều biến (Functions of Multiple Variables)**
-- **4.2 Đạo hàm riêng: Khái niệm (Partial Derivatives: The Concept)**
-- **4.3 Tính đạo hàm riêng (Calculating Partial Derivatives)**
-- **4.4 Ký hiệu đạo hàm riêng (Partial Derivative Notation)**
-- **4.5 Vectơ gradient (The Gradient Vector)**
-- **4.6 Ý nghĩa hình học của gradient (Geometric Meaning of the Gradient)**
-- **4.7 Thực hành: Tính đạo hàm riêng và gradient (Practice: Calculating Partial Derivatives and Gradients)**
+- [**4.1 Hàm số nhiều biến (Functions of Multiple Variables)**](./01-functions-of-multiple-variables.ipynb)
+- [**4.2 Đạo hàm riêng: Khái niệm (Partial Derivatives: The Concept)**](./02-partial-derivatives-the-concept.ipynb)
+- [**4.3 Tính đạo hàm riêng (Calculating Partial Derivatives)**](./03-calculating-partial-derivatives.ipynb)
+- [**4.4 Ký hiệu đạo hàm riêng (Partial Derivative Notation)**](./04-partial-derivative-notation.ipynb)
+- [**4.5 Vectơ gradient (The Gradient Vector)**](./05-the-gradient-vector.ipynb)
+- [**4.6 Ý nghĩa hình học của gradient (Geometric Meaning of the Gradient)**](./06-geometric-meaning-of-the-gradient.ipynb)
+- [**4.7 Thực hành: Tính đạo hàm riêng và gradient (Practice: Calculating Partial Derivatives and Gradients)**](./07-practice-calculating-partial-derivatives-and-gradients.ipynb)

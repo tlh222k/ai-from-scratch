@@ -41,8 +41,6 @@ GRAPH_CARDS = [
         "Điểm cực tiểu",
         "Quan sát điểm thấp nhất của đồ thị và tiếp tuyến ngang tại điểm cực tiểu.",
     ),
-
-    # Graph mới
     (
         "cost_function.html",
         "Hàm chi phí và tối ưu hóa tham số",
@@ -77,6 +75,11 @@ GRAPH_CARDS = [
         "gradient_vector_contour.html",
         "Gradient Vector trên Contour Plot",
         "Quan sát vector gradient vuông góc với đường đồng mức và hướng về phía giá trị hàm số tăng.",
+    ),
+    (
+        "linear_regression.html",
+        "Simple Linear Regression",
+        "Trực quan hóa mô hình f(x; w, b) = wx + b, vai trò của weight, bias và cách đường thẳng khớp với dữ liệu.",
     ),
 ]
 

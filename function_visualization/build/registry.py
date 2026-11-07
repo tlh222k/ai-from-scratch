@@ -26,6 +26,7 @@ _MODULES = [
     "gradient_descent_direction",
     "paraboloid_surface",
     "gradient_vector_contour",
+    "linear_regression",
 ]
 
 
