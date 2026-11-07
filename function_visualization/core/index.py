@@ -73,6 +73,11 @@ GRAPH_CARDS = [
         "Mặt Paraboloid 3D",
         "Trực quan hóa hàm hai biến f(x, y) = x² + y² và điểm cực tiểu tại gốc tọa độ (0, 0).",
     ),
+    (
+        "gradient_vector_contour.html",
+        "Gradient Vector trên Contour Plot",
+        "Quan sát vector gradient vuông góc với đường đồng mức và hướng về phía giá trị hàm số tăng.",
+    ),
 ]
 
 
