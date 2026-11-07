@@ -28,6 +28,7 @@ _MODULES = [
     "gradient_vector_contour",
     "linear_regression",
     "quadratic_cost_optimization",
+    "derivative_tangent_slope",
 ]
 
 

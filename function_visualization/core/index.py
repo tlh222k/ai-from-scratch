@@ -86,6 +86,11 @@ GRAPH_CARDS = [
         "Optimization – Finding the Minimum",
         "Trực quan hóa Cost Function J(w) = w² và quá trình Gradient Descent tìm điểm cực tiểu tại w = 0.",
     ),
+    (
+        "derivative_tangent_slope.html",
+        "Derivative – Tangent Slope",
+        "Trực quan hóa độ dốc tiếp tuyến tại x = -1, x = 1 và x = 3, qua đó hiểu mối liên hệ giữa đạo hàm và chiều biến thiên của hàm số.",
+    ),
 ]
 
 
