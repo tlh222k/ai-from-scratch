@@ -13,11 +13,11 @@ Chúng ta sẽ thực hiện một ví dụ sử dụng **hồi quy tuyến tín
 
 ## **Các phần (Sections)**
 
-- **5.1 Ôn tập: Mục tiêu tối ưu hóa và Gradient Descent (Recap: Optimization Goal and Gradient Descent)**
-- **5.2 Ví dụ: Mô hình hồi quy tuyến tính đơn giản (Example: Simple Linear Regression Model)**
-- **5.3 Xác định hàm chi phí cho hồi quy tuyến tính (Defining a Cost Function for Linear Regression)**
-- **5.4 Tính gradient cho hàm chi phí (Calculating Gradients for the Cost Function)**
-- **5.5 Thực hiện một bước Gradient Descent (Performing a Gradient Descent Step)**
-- **5.6 Tham số tốc độ học (The Learning Rate Parameter)**
-- **5.7 Kết hợp tất cả: Quy trình tối ưu hóa (Putting It All Together: The Optimization Process)**
-- **5.8 Thực hành: Tính gradient thủ công (Hands-on Practical: Manual Gradient Calculation)**
+- [**5.1 Ôn tập: Mục tiêu tối ưu hóa và Gradient Descent (Recap: Optimization Goal and Gradient Descent)**](./01-recap-optimization-goal-and-gradient-descent.ipynb)
+- [**5.2 Ví dụ: Mô hình hồi quy tuyến tính đơn giản (Example: Simple Linear Regression Model)**](./02-simple-linear-regression-model.ipynb)
+- [**5.3 Xác định hàm chi phí cho hồi quy tuyến tính (Defining a Cost Function for Linear Regression)**](./03-defining-a-cost-function-for-linear-regression.ipynb)
+- [**5.4 Tính gradient cho hàm chi phí (Calculating Gradients for the Cost Function)**](./04-calculating-gradients-for-the-cost-function.ipynb)
+- [**5.5 Thực hiện một bước Gradient Descent (Performing a Gradient Descent Step)**](./05-performing-a-gradient-descent-step.ipynb)
+- [**5.6 Tham số tốc độ học (The Learning Rate Parameter)**](./06-learning-rate-parameter.ipynb)
+- [**5.7 Kết hợp tất cả: Quy trình tối ưu hóa (Putting It All Together: The Optimization Process)**](./07-the-optimization-process.ipynb)
+- [**5.8 Thực hành: Tính gradient thủ công (Hands-on Practical: Manual Gradient Calculation)**](./08-hands-on-practicalmanual-gradient-calculation.ipynb)
