@@ -91,6 +91,11 @@ GRAPH_CARDS = [
         "Derivative – Tangent Slope",
         "Trực quan hóa độ dốc tiếp tuyến tại x = -1, x = 1 và x = 3, qua đó hiểu mối liên hệ giữa đạo hàm và chiều biến thiên của hàm số.",
     ),
+    (
+        "linear_regression_goal.html",
+        "Linear Regression – Visualizing the Goal",
+        "So sánh hai đường thẳng dự đoán trên dữ liệu số giờ học và điểm thi, qua đó hiểu mục tiêu tìm đường hồi quy phù hợp nhất.",
+    ),
 ]
 
 

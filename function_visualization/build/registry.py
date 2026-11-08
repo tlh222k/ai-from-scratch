@@ -29,6 +29,7 @@ _MODULES = [
     "linear_regression",
     "quadratic_cost_optimization",
     "derivative_tangent_slope",
+    "linear_regression_goal",
 ]
 
 
