@@ -96,6 +96,11 @@ GRAPH_CARDS = [
         "Linear Regression – Visualizing the Goal",
         "So sánh hai đường thẳng dự đoán trên dữ liệu số giờ học và điểm thi, qua đó hiểu mục tiêu tìm đường hồi quy phù hợp nhất.",
     ),
+    (
+        "linear_regression_residuals.html",
+        "Linear Regression – Residuals and MSE",
+        "Trực quan hóa phần dư giữa giá trị thực tế và dự đoán, đồng thời giải thích cách MSE đo lường sai số của mô hình.",
+    ),
 ]
 
 
