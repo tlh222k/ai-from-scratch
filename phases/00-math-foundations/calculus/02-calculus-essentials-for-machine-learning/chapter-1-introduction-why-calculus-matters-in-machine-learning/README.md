@@ -13,7 +13,7 @@ Chương này bao gồm:
 
 ## **Các phần (Sections)**
 
-- **1.1 Hàm và mô hình trong ML (Functions and Models in ML)**
-- **1.2 Khái niệm tối ưu hóa trong ML (The Concept of Optimization in ML)**
-- **1.3 Đo lường sự thay đổi: Vai trò của đạo hàm (Measuring Change: The Role of Derivatives)**
-- **1.4 Giải tích như một công cụ để hiểu các thuật toán (Calculus as a Tool for Understanding Algorithms)**
+- [**1.1 Hàm và mô hình trong ML (Functions and Models in ML)**](./01-functions-and-models-in-ml.ipynb)
+- [**1.2 Khái niệm tối ưu hóa trong ML (The Concept of Optimization in ML)**](./02-the-concept-of-optimization-in-ml.ipynb)
+- [**1.3 Đo lường sự thay đổi: Vai trò của đạo hàm (Measuring Change: The Role of Derivatives)**](./03-measuring-change-the-role-of-derivatives.ipynb)
+- [**1.4 Giải tích như một công cụ để hiểu các thuật toán (Calculus as a Tool for Understanding Algorithms)**](./04-calculus-as-a-tool-forunderstanding-algorithms.ipynb)
