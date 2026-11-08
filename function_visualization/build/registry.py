@@ -31,6 +31,7 @@ _MODULES = [
     "derivative_tangent_slope",
     "linear_regression_goal",
     "linear_regression_residuals",
+    "learning_rate_comparison",
 ]
 
 

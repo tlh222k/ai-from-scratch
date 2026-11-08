@@ -101,6 +101,11 @@ GRAPH_CARDS = [
         "Linear Regression – Residuals and MSE",
         "Trực quan hóa phần dư giữa giá trị thực tế và dự đoán, đồng thời giải thích cách MSE đo lường sai số của mô hình.",
     ),
+    (
+        "learning_rate_comparison.html",
+        "Gradient Descent – Learning Rate Comparison",
+        "So sánh ảnh hưởng của Learning Rate đến tốc độ hội tụ, dao động và phân kỳ của Gradient Descent.",
+    ),
 ]
 
 
