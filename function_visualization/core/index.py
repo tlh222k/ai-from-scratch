@@ -106,6 +106,11 @@ GRAPH_CARDS = [
         "Gradient Descent – Learning Rate Comparison",
         "So sánh ảnh hưởng của Learning Rate đến tốc độ hội tụ, dao động và phân kỳ của Gradient Descent.",
     ),
+    (
+        "limit_removable_discontinuity.html",
+        "Limit – Removable Discontinuity",
+        "Trực quan hóa giới hạn của (x² − 1)/(x − 1) tại x = 1 bằng animation tiếp cận từ hai phía.",
+    ),
 ]
 
 
