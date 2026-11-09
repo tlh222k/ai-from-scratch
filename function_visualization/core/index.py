@@ -111,6 +111,11 @@ GRAPH_CARDS = [
         "Limit – Removable Discontinuity",
         "Trực quan hóa giới hạn của (x² − 1)/(x − 1) tại x = 1 bằng animation tiếp cận từ hai phía.",
     ),
+    (
+        "secant_tangent_derivative.html",
+        "Derivative – Secant Line to Tangent Line",
+        "Trực quan hóa quá trình đường cát tuyến tiến đến đường tiếp tuyến khi h tiến về 0, qua đó giải thích ý nghĩa hình học của đạo hàm.",
+    ),    
 ]
 
 

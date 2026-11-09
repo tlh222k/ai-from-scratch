@@ -33,6 +33,7 @@ _MODULES = [
     "linear_regression_residuals",
     "learning_rate_comparison",
     "limit_removable_discontinuity",
+    "secant_tangent_derivative",
 ]
 
 
