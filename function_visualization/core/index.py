@@ -126,6 +126,12 @@ GRAPH_CARDS = [
         "Derivative Sign – Increasing and Decreasing",
         "Trực quan hóa mối quan hệ giữa dấu đạo hàm cấp một, chiều biến thiên và cách xác định cực đại, cực tiểu địa phương.",
     ),
+    (
+        "second_derivative_test.html",
+        "Second Derivative Test – Kiểm tra đạo hàm cấp hai",
+        "Trực quan hóa độ cong của hàm số, cách sử dụng đạo hàm cấp hai để xác định cực đại, cực tiểu địa phương và nhận biết điểm uốn.",
+    ),
+
 ]
 
 
