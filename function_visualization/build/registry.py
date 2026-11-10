@@ -34,6 +34,8 @@ _MODULES = [
     "learning_rate_comparison",
     "limit_removable_discontinuity",
     "secant_tangent_derivative",
+    "critical_point_tangent",
+    "derivative_sign_monotonicity",
 ]
 
 

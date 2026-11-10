@@ -116,6 +116,16 @@ GRAPH_CARDS = [
         "Derivative – Secant Line to Tangent Line",
         "Trực quan hóa quá trình đường cát tuyến tiến đến đường tiếp tuyến khi h tiến về 0, qua đó giải thích ý nghĩa hình học của đạo hàm.",
     ),    
+    (
+        "critical_point_tangent.html",
+        "Critical Point – Horizontal Tangent",
+        "Trực quan hóa điểm cực tiểu của f(x) = x², sự thay đổi độ dốc tiếp tuyến và điều kiện f'(0) = 0.",
+    ),
+    (
+        "derivative_sign_monotonicity.html",
+        "Derivative Sign – Increasing and Decreasing",
+        "Trực quan hóa mối quan hệ giữa dấu đạo hàm cấp một, chiều biến thiên và cách xác định cực đại, cực tiểu địa phương.",
+    ),
 ]
 
 
