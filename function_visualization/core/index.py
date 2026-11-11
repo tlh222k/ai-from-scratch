@@ -131,7 +131,11 @@ GRAPH_CARDS = [
         "Second Derivative Test – Kiểm tra đạo hàm cấp hai",
         "Trực quan hóa độ cong của hàm số, cách sử dụng đạo hàm cấp hai để xác định cực đại, cực tiểu địa phương và nhận biết điểm uốn.",
     ),
-
+    (
+        "partial_derivatives_geometry.html",
+        "Geometric Interpretation of Partial Derivatives",
+        "Trực quan hóa ý nghĩa hình học của đạo hàm riêng thông qua bề mặt 3D, hai lát cắt theo trục x và y cùng các đường tiếp tuyến.",
+    ),
 ]
 
 

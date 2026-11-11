@@ -37,6 +37,7 @@ _MODULES = [
     "critical_point_tangent",
     "derivative_sign_monotonicity",
     "second_derivative_test",
+    "partial_derivatives_geometry",
 ]
 
 
