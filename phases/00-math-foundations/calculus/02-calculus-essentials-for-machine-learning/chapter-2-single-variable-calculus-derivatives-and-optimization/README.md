@@ -8,10 +8,10 @@ Một ứng dụng quan trọng mà chúng ta sẽ xem xét là sử dụng đ�
 
 ## **Các phần (Sections)**
 
-- **2.1 Tìm hiểu về giới hạn: Nền tảng (Understanding Limits: The Foundation)**
-- **2.2 Định nghĩa đạo hàm (Defining the Derivative)**
-- **2.3 Các quy tắc tính đạo hàm phổ biến (Common Differentiation Rules)**
-- **2.4 Đạo hàm cấp cao (Higher-Order Derivatives)**
-- **2.5 Tìm cực tiểu và cực đại bằng đạo hàm (Finding Minima and Maxima using Derivatives)**
-- **2.6 Ứng dụng: Tối ưu hóa hàm chi phí đơn giản (Application: Simple Cost Function Optimization)**
-- **2.7 Thực hành: Tính đạo hàm bằng Python (Hands-on Practical: Calculating Derivatives with Python)**
+- [**2.1 Tìm hiểu về giới hạn: Nền tảng (Understanding Limits: The Foundation)**](./01-understanding-limits-the-foundation.ipynb)
+- [**2.2 Định nghĩa đạo hàm (Defining the Derivative)**](./02-defining-the-derivative.ipynb)
+- [**2.3 Các quy tắc tính đạo hàm phổ biến (Common Differentiation Rules)**](./03-common-differentiation-rules.ipynb)
+- [**2.4 Đạo hàm cấp cao (Higher-Order Derivatives)**](./04-higher-order-derivatives.ipynb)
+- [**2.5 Tìm cực tiểu và cực đại bằng đạo hàm (Finding Minima and Maxima using)**](./05-finding-minima%20and-maxima%20using-derivatives.ipynb)
+- [**2.6 Ứng dụng: Tối ưu hóa hàm chi phí đơn giản (Application: Simple Cost Function)**](./06-application-simple-cost-function-optimization.ipynb)
+- [**2.7 Thực hành: Tính đạo hàm bằng Python (Hands-on Practical: Calculating with Python)**](./07-hands-on-practical-calculating-derivatives-with-python.ipynb)
