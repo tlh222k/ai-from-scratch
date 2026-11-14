@@ -38,6 +38,7 @@ _MODULES = [
     "derivative_sign_monotonicity",
     "second_derivative_test",
     "partial_derivatives_geometry",
+    "directional_derivative",
 ]
 
 

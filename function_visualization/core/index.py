@@ -136,6 +136,11 @@ GRAPH_CARDS = [
         "Geometric Interpretation of Partial Derivatives",
         "Trực quan hóa ý nghĩa hình học của đạo hàm riêng thông qua bề mặt 3D, hai lát cắt theo trục x và y cùng các đường tiếp tuyến.",
     ),
+    (
+        "directional_derivative.html",
+        "Đạo hàm theo hướng – Directional Derivative",
+        "Trực quan hóa đạo hàm theo hướng thông qua phép chiếu của Gradient lên vector hướng đơn vị.",
+    ),
 ]
 
 
